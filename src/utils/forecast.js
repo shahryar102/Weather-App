@@ -9,7 +9,7 @@ const forecast = (lat, long, callback) => {
         json: true
     }, (error, {body}) => {
         if (error) {
-            callback('Unable to connect! Check internet connectivity', undefined);
+            callback('Unable to connect! Check internet connection', undefined);
         } else if (body.error) {
             callback(body.error,undefined);
         } else {
