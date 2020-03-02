@@ -8,7 +8,7 @@
     "dev": "nodemon src/app -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "me!",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
